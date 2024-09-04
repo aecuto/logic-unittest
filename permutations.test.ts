@@ -21,7 +21,6 @@ describe("testing permutations", () => {
   });
 
   test("input 'aabb'", () => {
-    console.log(permutator("aabb"));
     expect(permutator("aabb")).toEqual([
       "aabb",
       "abab",
